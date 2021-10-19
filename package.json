@@ -1,0 +1,26 @@
+{
+  "name": "astroworldserver",
+  "version": "1.0.0",
+  "description": "Multiplayer Socket.io server for AstroWorld game",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aerochrome/AstroWorldServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aerochrome/AstroWorldServer/issues"
+  },
+  "homepage": "https://github.com/Aerochrome/AstroWorldServer#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "socket.io": "^4.3.1"
+  }
+}
